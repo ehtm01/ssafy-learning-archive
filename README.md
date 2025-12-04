@@ -1,187 +1,155 @@
 # SSAFY Learning Archive
 
-## 소개
-SSAFY 1학기 과정에서 학습한 내용을 주제별로 정리한 저장소입니다.
+> 대외비 규정을 준수하여 핵심 개념만 정리한 학습 아카이브입니다.
+>
+> 이 저장소는 교육 자료의 원본이 아닌, 개인적으로 학습한 기술 스택과 핵심 개념을 요약한 것입니다.
 
-**학습 기간:** 2024.07 ~ 2024.12
+## 📚 학습 요약
 
----
+본 저장소는 SSAFY 1학기 동안 학습한 내용을 **핵심 개념과 키워드 중심**으로 요약한 자료입니다.
 
-## 목차
+### 📖 주제별 요약 문서
 
-### 1. Python
-#### [기초 문법](./python/basics)
-- 프로그래밍 개념
-- 변수와 메모리
-- 데이터 타입 (int, float, str)
-- 연산자와 표현식
-- f-string
+- **[Python 학습 요약](./summaries/python-summary.md)**
+  - Python 기초, 자료구조, OOP, 알고리즘
+  - 핵심 키워드: 변수, 함수, 클래스, 리스트, 딕셔너리, Stack, Queue, Tree, Graph, DFS, BFS
 
-#### [자료구조 & OOP](./python/data-structures)
-- 리스트, 딕셔너리, 튜플
-- 메서드 (문자열, 리스트)
-- 얕은 복사 vs 깊은 복사
-- 객체지향 프로그래밍 (OOP)
-- 예외 처리
+- **[Web Development 학습 요약](./summaries/web-summary.md)**
+  - Frontend: HTML/CSS, JavaScript, Vue.js
+  - Backend: Django, Django REST Framework
+  - 핵심 키워드: DOM, 비동기, Fetch API, Vue 컴포넌트, MTV 패턴, ORM, REST API, Serializer
 
-#### [알고리즘](./python/algorithms)
-- **[List & String](./python/algorithms/list-string)**: 배열, 문자열 알고리즘
-- **[Stack & Queue](./python/algorithms/stack-queue)**: 스택, 큐, 우선순위 큐
-- **[Tree](./python/algorithms/tree)**: 이진 트리, 트리 순회
-- **[Graph](./python/algorithms/graph)**: BFS, DFS, 최단 경로
+- **[Database 학습 요약](./summaries/database-summary.md)**
+  - SQL 기초, Django ORM, 관계형 데이터베이스
+  - 핵심 키워드: SQL, JOIN, QuerySet, ForeignKey, ManyToMany, 1:N, N:M, select_related, prefetch_related
+
+- **[AI & Machine Learning 학습 요약](./summaries/ai-ml-summary.md)**
+  - 기계학습 기초, NLP, Computer Vision, LLM, AI Agent
+  - 핵심 키워드: 지도학습, CNN, Transformer, GPT, BERT, LangChain, RAG, Fine-tuning, LoRA
 
 ---
 
-### 2. Web Development
+## 🎯 학습 목표
 
-#### Frontend
-##### [HTML/CSS](./web/frontend/html-css)
-- HTML 기초
-- CSS Layout (Flexbox, Grid)
-- Bootstrap
-- 반응형 웹
-
-##### [JavaScript](./web/frontend/javascript)
-- DOM 조작
-- 기본 문법 (변수, 함수, 객체)
-- 이벤트 처리
-- Ajax & Fetch API
-
-##### [Vue.js](./web/frontend/vue)
-- Vue 기초
-- 컴포넌트
-- Single File Component (SFC)
-- Component Stack Flow
-
-#### Backend
-##### [Django](./web/backend/django)
-- Django 기초 & 디자인 패턴
-- Template & URLs
-- Model & ORM
-- Form & Authentication
-- Static Files
-
-##### [Django REST Framework](./web/backend/django-rest-framework)
-- RESTful API 설계
-- Serializer
-- ViewSet & Router
+1. **Full Stack Web Development**: Django + Vue.js
+2. **알고리즘 문제 해결 능력**: Python 기반 자료구조 및 알고리즘
+3. **데이터베이스 설계 및 최적화**: MySQL + Django ORM
+4. **AI/ML 기초 및 응용**: LLM, RAG, AI Agent
 
 ---
 
-### 3. [Database](./database)
-#### [SQL 기초](./database/sql-basics)
-- SQL 기본 쿼리 (SELECT, INSERT, UPDATE, DELETE)
-- JOIN
-- Many-to-One / Many-to-Many 관계
-- Django ORM과 SQL
+## 🛠 기술 스택
 
----
-
-### 4. [AI/ML](./ai-ml)
-#### [이론](./ai-ml/theory)
-- 기계학습 기초 & 방법론
-- 자연어 처리 (NLP)
-- 딥러닝 영상 모델
-- 이미지/텍스트 Foundation 모델
-- LangChain 서비스 개발
-- AI Agent 모델
-
-#### [실습](./ai-ml/practice)
-- Colab 실습 노트북
-- 프로젝트 코드
-
----
-
-### 5. Tools
-- **Git**: 버전 관리, 협업
-- **Figma**: UI/UX 디자인
-
----
-
-## 프로젝트
-> 2학기 프로젝트 진행 후 업데이트 예정입니다.
-
----
-
-## 학습 통계
-
-- **알고리즘 문제 풀이 저장소**: [algorithm repository](https://github.com/ehtm01/pythonProject)
-- **주요 플랫폼**: 백준, SWEA
-
----
-
-## 기술 스택
-
-**Languages**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white)
-
-**Frontend**
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
-
-**Backend**
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-![DRF](https://img.shields.io/badge/Django%20REST-ff1709?style=flat-square&logo=django&logoColor=white)
-
-**Database**
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
+**Languages**
+- Python, JavaScript, HTML/CSS
+
+**Frontend**
+- Vue.js 3, Bootstrap 5
+
+**Backend**
+- Django 4.x, Django REST Framework
+
+**Database**
+- MySQL
+
+**AI/ML**
+- TensorFlow, PyTorch, Hugging Face, LangChain
+
 **Tools**
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+- Git/GitHub, VS Code, Figma, Postman
 
 ---
 
-## 작성 규칙
-
-- 매일 학습한 내용을 주제별로 정리합니다
-- 코드 예제와 함께 개념을 설명합니다
-- 어려웠던 부분과 해결 방법을 기록합니다
-- 이미지는 각 디렉토리의 `images/` 폴더에 저장합니다
-
----
-
-## 디렉토리 구조
+## 📂 디렉토리 구조
 
 ```
 ssafy-learning-archive/
-├── python/
-│   ├── basics/              # Python 기초
-│   ├── data-structures/     # 자료구조 & OOP
-│   └── algorithms/          # 알고리즘
-│       ├── list-string/
-│       ├── stack-queue/
-│       ├── tree/
-│       └── graph/
-├── web/
-│   ├── frontend/
-│   │   ├── html-css/
-│   │   ├── javascript/
-│   │   └── vue/
-│   └── backend/
-│       ├── django/
-│       └── django-rest-framework/
-├── database/
-│   └── sql-basics/
-├── ai-ml/
-│   ├── theory/
-│   └── practice/
-├── tools/
-│   ├── git/
-│   └── figma/
-└── projects/
+├── summaries/              # 핵심 개념 요약 문서 (공개 가능)
+│   ├── python-summary.md
+│   ├── web-summary.md
+│   ├── database-summary.md
+│   └── ai-ml-summary.md
+└── README.md
 ```
 
 ---
 
-## 연락처
+## 🎓 학습 흐름
 
-학습 내용에 대한 질문이나 피드백은 언제든 환영합니다!
+### 1단계: 기초 다지기
+- Python 프로그래밍 기초
+- 웹 기초 (HTML/CSS)
+- 알고리즘 기초
 
-- **GitHub**: [@ehtm01](https://github.com/ehtm01)
-- **Algorithm Repo**: [pythonProject](https://github.com/ehtm01/pythonProject)
+### 2단계: 심화 학습
+- 자료구조 및 OOP
+- JavaScript & Vue.js
+- Django 웹 프레임워크
+- SQL & Django ORM
+
+### 3단계: 실전 프로젝트
+- Full Stack 프로젝트
+- RESTful API 설계 및 구현
+- 데이터베이스 모델링
+
+### 4단계: AI/ML 응용
+- 기계학습 기초
+- NLP & Computer Vision
+- LLM & AI Agent
+
+---
+
+## 📝 블로그 작성 계획
+
+이 요약 자료를 바탕으로 다음과 같은 기술 블로그 포스트를 작성할 예정입니다:
+
+### Python
+- Python 자료구조 완벽 정리
+- 얕은 복사 vs 깊은 복사
+- DFS/BFS 구현 및 활용
+
+### Web
+- Vue.js 컴포넌트 통신 패턴
+- Django ORM 쿼리 최적화
+- RESTful API 설계 가이드
+
+### Database
+- 1:N과 N:M 관계 실전 예제
+- Django에서 N+1 쿼리 해결하기
+- select_related vs prefetch_related
+
+### AI/ML
+- Transformer 아키텍처 이해
+- LangChain으로 RAG 챗봇 구축
+- Prompt Engineering 실전 팁
+
+---
+
+## 📌 참고사항
+
+- 본 저장소는 **교육 자료의 원본이 아닌**, 학습 과정에서 습득한 **핵심 개념과 개인적인 정리**를 담고 있습니다.
+- 모든 내용은 **대외비 규정을 준수**하여 작성되었습니다.
+- 구체적인 구현 코드나 프로젝트 상세 내용은 포함되지 않았습니다.
+- 블로그 작성 시 공식 문서 및 공개 자료를 참고하여 내용을 보강할 예정입니다.
+
+---
+
+## 🔗 관련 링크
+
+- **알고리즘 문제 풀이**: [github.com/ehtm01/pythonProject](https://github.com/ehtm01/pythonProject)
+
+---
+
+## 📧 Contact
+
+- GitHub: [@ehtm01](https://github.com/ehtm01)
+
+---
+
+> 이 저장소는 지속적으로 업데이트됩니다.
