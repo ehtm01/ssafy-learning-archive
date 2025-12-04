@@ -195,7 +195,7 @@ depth | read_only | write_only
 ## 기술 스택
 
 **DBMS**
-- MySQL 8.x
+- SQLite
 
 **ORM**
 - Django ORM
@@ -204,7 +204,6 @@ depth | read_only | write_only
 - Django REST Framework
 
 **도구**
-- MySQL Workbench
 - DB Browser for SQLite
 - Postman (API 테스트)
 
